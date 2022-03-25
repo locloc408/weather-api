@@ -1,9 +1,9 @@
 import React, { FC, useEffect, useState } from "react";
-import Lottie, { LottieProps } from "react-lottie-player";
+import Lottie from "react-lottie-player";
 /* eslint-disable import/first */
 interface LottieComponentProps {
   src: string | null;
-  props: LottieProps;
+  props: any;
 }
 export const LottieComponent: FC<LottieComponentProps> = ({ src, props }) => {
   useEffect(() => {
