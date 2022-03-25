@@ -4,6 +4,7 @@ import store from "./redux/store";
 import { SideBar } from "./component/SideBar/SideBar";
 import { Provider } from "react-redux";
 import { Wrapper } from "./component/Wrapper/Wrapper";
+require("dotenv").config();
 function App() {
   return (
     <Provider store={store}>
