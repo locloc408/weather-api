@@ -47,7 +47,7 @@ export const Dashboard = () => {
         </div>
         <div className="flex space-x-1">
           <div className="overflow-y-auto w-8 h-8 rounded-full">
-            <a href="">
+            <a href="https://github.com/locloc408/weather-api">
               <img
                 src={require(`../../asset/github.png`)}
                 style={{
